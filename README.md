@@ -17,4 +17,15 @@ With this variant, not only the displays of windows and programs remain the same
 
 Of course I would be happy if you would integrate this possibility directly on the respective desktop environments to make it a little easier for the user to work. This method works very well but requires a bit more computing power from the graphics card.
 
+## Command and function explanation for the example used
+    xrandr --output HDMI-0 --scale 2x2 --mode 1920x1080 --fb 7680x2160 --pos 3840x0
+
+| Options | Stateme | Evaluation function  |
+| - | - | -:|
+| --output HDMI-0 | Specify the name of the target monitor.<br>A list of all monitor names can be obtained with the following command:  | xrandr --listmonitors |
+| --scale 2x2 | Scaling factor for the output. | |
+| --mode 1920x1080 | Resolution of the target monitor. | |
+| --fb 7680x2160 | Since the displays are on the same 0-line, only the width i.e. 1 times the<br>height and 2 times the 4K-width must be indicated. | |
+| --pos 3840x0 | So that the displays lie next to each other<br>(in this case shifted to the right), a 4K width must be added. | |
+
 ### If it doesn't work for you or there are other problems with the display mode, please contact me.
