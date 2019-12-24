@@ -1,4 +1,4 @@
-# 4K (HiDPI) rescale Full HD
+# 4K (HiDPI) rescale Full HD (Workaround)
 
 Using a 4K display and a Full HD display under Linux can cause some problems, often the scaling of the display is done on both or more displays. For example, if you scale a 4K display to 150% or 200%, this scaling is also done on the Full HD display, but this effect is often undesirable. In order to get a uniform scaling and thus a more user-friendly display, you can also have a 4k screen calculated for this display and reduce it to the Full HD display before outputting it.
 
